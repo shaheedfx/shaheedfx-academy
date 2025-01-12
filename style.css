@@ -1,0 +1,331 @@
+/* General Styles */ 
+body {
+    font-family: 'Poppins', sans-serif;    
+    margin: 0;    
+    padding: 0;    
+    line-height: 1.6;    
+    background-color: #f9f9f9;    
+    color: #333; 
+}
+
+h1, h2, h3 {    
+    color: #001F54;    
+    text-align: center; 
+}
+
+p {    
+    text-align: center;    
+    margin: 0 auto 20px;    
+    max-width: 800px; 
+}
+
+a {
+    text-decoration: none;
+    color: #001F54; 
+}
+
+/* Header */ 
+header {    
+    display: flex;    
+    justify-content: space-between;    
+    align-items: center;    
+    padding: 20px 40px;    
+    background: #001F54;    
+    color: #fff; 
+}
+
+header .logo {    
+    font-size: 1.8rem;    
+    font-weight: bold; 
+}
+
+header nav ul {    
+    display: flex;    
+    list-style: none;    
+    margin: 0;    
+    padding: 0; 
+}
+
+header nav ul li {    
+    margin: 0 15px;
+ }
+
+header nav ul li a {    
+    color: #fff;    
+    font-weight: bold;    
+    transition: color 0.3s ease; 
+}
+
+header nav ul li a:hover {    
+color: #FFD700; 
+}
+
+header .cta {    
+    background: #FFD700;
+    color: #001F54;    
+    padding: 10px 20px;    
+    border-radius: 5px;    
+    font-weight: bold;    
+    transition: background 0.3s ease; 
+}
+
+header .cta:hover {    
+    background: #e6c200; 
+}
+
+/* Hero Section */ 
+.hero {    
+    background: linear-gradient(to right, #001F54, #0056A2);
+    color: #fff;    
+    text-align: center;    
+    padding: 80px 20px; 
+}
+
+.hero h1 {    
+    font-size: 2.5rem;    
+    margin-bottom: 20px; 
+}
+
+.hero p {    
+    font-size: 1.2rem;    
+    margin-bottom: 30px; 
+}
+
+.hero .cta {    
+    background: #FFD700;    
+    color: #001F54;    
+    padding: 10px 25px;    
+    font-weight: bold;    
+    border-radius: 5px;    
+    transition: background 0.3s ease; 
+}
+
+.hero .cta:hover {    
+    background: #e6c200; 
+}
+
+/* Section Styling */
+ section {    
+    padding: 50px 20px; 
+}
+
+section h1 {    
+    margin-bottom: 20px; 
+}
+
+/* About Section */
+ .about p {    
+    text-align: justify;    
+    margin: 0 auto;    
+    max-width: 900px; 
+}
+
+/* Courses Section */ 
+.courses ul {    
+    list-style: none;    
+    padding: 0;    
+    margin: 0 auto;    
+    max-width: 800px; 
+}
+
+.courses ul li {    
+    padding: 10px;    
+    border-bottom: 1px solid #ddd; 
+}
+
+.courses ul li:last-child {    
+    border-bottom: none; 
+}
+
+/* Services Section */ 
+.services ul {    
+    list-style: none;    
+    padding: 0;    
+    margin: 0 auto;    
+    max-width: 800px; 
+}
+
+.services ul li {
+    padding: 10px;    
+    border-bottom: 1px solid #ddd; 
+}
+
+.services ul li:last-child {    
+    border-bottom: none; 
+}
+
+/* Contact Form */ 
+form {    
+    max-width: 600px;    
+    margin: 0 auto;    
+    background: #fff;    
+    padding: 20px;    
+    border-radius: 5px;    
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+}
+
+form label {    
+    display: block;    
+    margin: 10px 0 5px;    
+    font-weight: bold; 
+}
+
+form input, form textarea, form button {    
+    width: 100%;    
+    padding: 10px;    
+    margin-bottom: 15px;    
+    border: 1px solid #ddd;    
+    border-radius: 5px; 
+}
+
+form button {    
+    background: #001F54;    
+    color: #fff;    
+    border: none;    
+    font-weight: bold;    
+    cursor: pointer;    
+    transition: background 0.3s ease; 
+}
+
+form button:hover {
+    background: #0056A2; 
+}
+
+/* Footer */ 
+footer {    
+    text-align: center;    
+    background: #001F54;    
+    color: #fff;    
+    padding: 20px 10px;    
+    margin-top: 30px;
+    height: 100%;
+    width: 100%;
+    
+}
+
+.courses a:hover li {
+    color: #007bfffd; /* Change to your theme color */
+    text-decoration: underline;
+}
+
+
+
+
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background: #333;
+    color: white;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.cta {
+    padding: 10px 20px;
+    background: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.hero {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #333;
+    color: white;
+}
+
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cta {
+        margin-top: 10px;
+    }
+}
+
+
+/* Modal styling */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.8); /* Black background with opacity */
+}
+
+/* Modal content */
+.modal-content {
+    position: relative;
+    margin: auto;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    animation: fadeIn 0.3s;
+}
+
+/* Close button */
+.modal-content .close {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    color: #aaa;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.modal-content .close:hover,
+.modal-content .close:focus {
+    color: black;
+    text-decoration: none;
+}
+
+/* Video */
+.modal-content video {
+    width: 100%;
+    height: auto;
+}
+
+/* Animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
